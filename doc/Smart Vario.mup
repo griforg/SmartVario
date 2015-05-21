@@ -1,0 +1,328 @@
+{
+  "title": "Smart Vario",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Baromètre",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Tendance météo ",
+          "id": 28,
+          "attr": {
+            "style": {
+              "background": "#ffff99"
+            }
+          }
+        },
+        "2": {
+          "title": "Alarme orage",
+          "id": 29,
+          "attr": {
+            "style": {
+              "background": "#ffff99"
+            }
+          }
+        },
+        "3": {
+          "title": "Altimètre pression",
+          "id": 34,
+          "attr": {
+            "style": {
+              "background": "#ffff99"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ffff99"
+        }
+      }
+    },
+    "6": {
+      "title": "Thermomètre",
+      "id": 12,
+      "attr": {
+        "style": {
+          "background": "#33cccc"
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": "Compensation pour altimètre",
+          "id": 33,
+          "attr": {
+            "style": {
+              "background": "#33cccc"
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "title": "GPS",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Finesse sol",
+          "id": 25,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Calcul zone/point accessible",
+              "id": 41,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "Position",
+          "id": 26,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "3": {
+          "title": "Vitesse sol",
+          "id": 27,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "4": {
+          "title": "Track back",
+          "id": 36,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "5": {
+          "title": "Cap vrai",
+          "id": 37,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "6": {
+          "title": "Chronomètre",
+          "id": 38,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Durée de vol",
+              "id": 40,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "title": "Hauteur sol",
+          "id": 42,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Actuelle",
+              "id": 43,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": "Projetée sur parcours",
+              "id": 44,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        },
+        "8": {
+          "title": "Altitude GPS",
+          "id": 47,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Calage altimètre",
+              "id": 48,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    },
+    "12": {
+      "title": "Data logger",
+      "id": 18,
+      "ideas": {}
+    },
+    "-1": {
+      "title": "Boussole ",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Cap magnétique",
+          "id": 20,
+          "attr": {
+            "style": {
+              "background": "#ff6600"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff6600"
+        }
+      }
+    },
+    "-2": {
+      "title": "Interface PC",
+      "id": 16,
+      "ideas": {
+        "1": {
+          "title": "Input",
+          "id": 21,
+          "attr": {
+            "style": {
+              "background": "#ff99cc"
+            }
+          }
+        },
+        "2": {
+          "title": "Output",
+          "id": 22,
+          "attr": {
+            "style": {
+              "background": "#ff99cc"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff99cc"
+        }
+      }
+    },
+    "-3": {
+      "title": "IHM",
+      "id": 17,
+      "ideas": {
+        "1": {
+          "title": "Visuel",
+          "id": 31,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "2": {
+          "title": "Sonore",
+          "id": 32,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        },
+        "3": {
+          "title": "Boutons",
+          "id": 35,
+          "attr": {
+            "style": {
+              "background": "#008000"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#008000"
+        }
+      }
+    },
+    "-4": {
+      "title": "Variomètre",
+      "id": 19,
+      "ideas": {
+        "1": {
+          "title": "Vitesse verticale",
+          "id": 23,
+          "attr": {
+            "style": {
+              "background": "#ccffff"
+            }
+          }
+        },
+        "2": {
+          "title": "Alarmes",
+          "id": 24,
+          "attr": {
+            "style": {
+              "background": "#ccffff"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ccffff"
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "style": {
+      "background": "#000000"
+    }
+  }
+}
