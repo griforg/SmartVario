@@ -4,11 +4,11 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "Baromètre",
+      "title": "BaromÃ¨tre",
       "id": 3,
       "ideas": {
         "1": {
-          "title": "Tendance météo ",
+          "title": "Tendance meteo ",
           "id": 28,
           "attr": {
             "style": {
@@ -26,7 +26,7 @@
           }
         },
         "3": {
-          "title": "Altimètre pression",
+          "title": "Altimetre pression",
           "id": 34,
           "attr": {
             "style": {
@@ -42,7 +42,7 @@
       }
     },
     "6": {
-      "title": "Thermomètre",
+      "title": "Thermometre",
       "id": 12,
       "attr": {
         "style": {
@@ -51,7 +51,7 @@
       },
       "ideas": {
         "1": {
-          "title": "Compensation pour altimètre",
+          "title": "Compensation pour altimetre",
           "id": 33,
           "attr": {
             "style": {
@@ -122,7 +122,7 @@
           }
         },
         "6": {
-          "title": "Chronomètre",
+          "title": "Chronometre",
           "id": 38,
           "attr": {
             "style": {
@@ -131,7 +131,7 @@
           },
           "ideas": {
             "1": {
-              "title": "Durée de vol",
+              "title": "Duree de vol",
               "id": 40,
               "attr": {
                 "style": {
@@ -160,7 +160,7 @@
               }
             },
             "2": {
-              "title": "Projetée sur parcours",
+              "title": "Projetee sur parcours",
               "id": 44,
               "attr": {
                 "style": {
@@ -180,7 +180,7 @@
           },
           "ideas": {
             "1": {
-              "title": "Calage altimètre",
+              "title": "Calage altimetre",
               "id": 48,
               "attr": {
                 "style": {
@@ -207,7 +207,7 @@
       "id": 13,
       "ideas": {
         "1": {
-          "title": "Cap magnétique",
+          "title": "Cap magnetique",
           "id": 20,
           "attr": {
             "style": {
@@ -290,7 +290,7 @@
       }
     },
     "-4": {
-      "title": "Variomètre",
+      "title": "Variometre",
       "id": 19,
       "ideas": {
         "1": {
