@@ -1,0 +1,51 @@
+ @@ -1,19 +1,19 @@
+ *Note : [aide sur la syntaxe Markdown](https://guides.github.com/features/mastering-markdown/)*
+ 
+ #Proposition d'IHM#
+ 
+ Je propose un affichage type *tête haute* avec en permanence le cap, la vitesse verticale et la vitesse sol. 
+ 
+ ##Menu 1 : Mode *Classique*##
+ Ce mode est destiné a afficher les informations classiques d'un variomètre.
+ 
+ Liste des infos affichées à l'écran :
+ * Altitude barométrique
+ * Vitesse sol
+ * Vitesse verticale
+ * Finesse sol
+ * Cap actuel
+-* *Position GPS?*
++* *Position GPS?* n'a de sens que si il y a un fond de carte je pense
+ 
+ Barrette de diodes : vitesse verticale 
+ 
+@@ -25,6 +25,7 @@ Nombre de diodes allumées|Montée : vert|Descente : rouge
+ 4|4 à 5 m/s|3-4 m/s
+ 5|>5 m/s|>4 m/s
+ 
++*je me demande si il ne faudrait pas un affichage pour l'ascension entre 0 et 1m/s
+ Si action sur le bouton réglage : *à définir*
+ 
+ ##Menu 2 : Mode *Approche*##
+@@ -36,6 +37,7 @@ Liste des infos affichées à l'écran :
+ * Finesse nécessaire
+ * Finesse actuelle *(sans objet si trajectoire à +/- 30° de la direction du terrain?)*
+ * Marge de hauteur à l'arrivée au-dessus du terrain
++* tenir compte de la direction de posé ? 
+ 
+ Barrette de diodes :
+ * 6 rouges : terrain hors finesse
+@@ -46,7 +48,7 @@ Barrette de diodes :
+ Si action sur le bouton réglage : défilement des terrains enregistrés
+ 
+ ##Menu 3 : Mode *Finale*##
+-Cette vue pourrait proposer une aide à l'atterrissage. Soit une aide à la PTU, plus complexe à programmer, soit, plus simple, une aide la phase finale (trop haut, trop bas par rapport à mon point de visé, ou par rapport aux limites du terrain.
++Cette vue pourrait proposer une aide à l'atterrissage. Soit une aide à la PTU, plus complexe à programmer, soit, plus simple, une aide la phase finale (trop haut, trop bas par rapport à mon point de visé, ou par rapport aux limites du terrain. est-ce qu'il y a la précision suffisante pour viser un point à 1/3 de l'entrée du terrain ? d'ailleurs, 1/3 en tenant compte de la direction de posé.
+ 
+ ##Menu 4 : Mode *Configuration*##
+ Ce menu permet de configurer les paramètres de l'appareil :
+@@ -54,3 +56,4 @@ Ce menu permet de configurer les paramètres de l'appareil :
+ * Coordonnées des terrains
+ * Paramètres pour l'affichage des diodes
+ * etc
++les options "dures" pourraient être accessibles seulement sur un pc, et on aurait ici un réglage des paramètres cosmétiques ou par exemple le réglage des tranches de vitesses ascensionnelles ?
