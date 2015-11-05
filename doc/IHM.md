@@ -2,6 +2,8 @@
 
 #Proposition d'IHM#
 
+Je propose un affichage type *tête haute* avec en permanence le cap, la vitesse verticale et la vitesse sol. 
+
 ##Menu 1 : Mode *Classique*##
 Ce mode est destiné a afficher les informations classiques d'un variomètre.
 
@@ -10,6 +12,7 @@ Liste des infos affichées à l'écran :
 * Vitesse sol
 * Vitesse verticale
 * Finesse sol
+* Cap actuel
 * *Position GPS?*
 
 Barrette de diodes : vitesse verticale 
@@ -43,11 +46,11 @@ Barrette de diodes :
 Si action sur le bouton réglage : défilement des terrains enregistrés
 
 ##Menu 3 : Mode *Finale*##
-texte2
-texte
+Cette vue pourrait proposer une aide à l'atterrissage. Soit une aide à la PTU, plus complexe à programmer, soit, plus simple, une aide la phase finale (trop haut, trop bas par rapport à mon point de visé, ou par rapport aux limites du terrain.
 
 ##Menu 4 : Mode *Configuration*##
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+Ce menu permet de configurer les paramètres de l'appareil :
+* Altitude
+* Coordonnées des terrains
+* Paramètres pour l'affichage des diodes
+* etc
